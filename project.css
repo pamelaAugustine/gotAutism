@@ -1,0 +1,143 @@
+
+body,h1,h2,h3,h4,h5,h6 {font-family: Candara}
+body, html {
+    height: 100%;
+    color:rgb(23, 82, 177);
+    line-height: 2.0;
+    margin: 2%;
+    font-size: 20px;
+}
+#back{
+    background-color: rgb(238, 234, 234);
+}
+
+button {
+    border: 2px solid rgb(23, 82, 177);
+    color: rgb(23, 82, 177);
+}
+
+dialog {
+    border: 2px solid rgb(23, 82, 177);
+}
+a:hover{
+    color: red;
+}
+.the_nav{
+    position: relative;
+    left: 55%;
+}
+#logo{
+    position: relative;
+    top: -5%;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+label {
+    float: right;
+}
+/*images*/
+
+#kids{
+    width: 30%;
+    height:40%;
+   float: right;
+    left: 40%;
+    padding: 1%;
+}
+
+#freckleface{
+  height: 30%;
+  width: 20%;
+}    
+/* Create a Parallax Effect */
+ /* .bgimg-2{
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Second image (Portfolio) */
+/* .bgimg-2 {
+    background-image: url(images/freckleface.PNG);
+    min-height: 400px;
+} */
+   
+
+/*dialog css*/
+
+#favDialog {
+    width: 50%;
+    box-shadow: 0 10px 30px RGBA(24,22,22,.89);
+}
+
+#outputs {
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 10px 30px RGBA(24,22,22,.89);
+}
+
+#disclaimerBox{
+    box-shadow: 0 10px 30px RGBA(24,22,22,.89);
+}
+
+/* Third image (Contact) */
+
+.bgimg-3 {
+    background-image: url(images/notebook.jpg);
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.events-list{
+    position: relative;
+    left: 43%;
+}
+
+
+/* media query for ipad */
+@media(max-width: 768px){
+    body,h1,h2,h3,h4,h5,h6 {font-family: Candara}
+    body, html {
+    height: 100%;
+    width: 90%;
+    color:rgb(23, 82, 177);
+    line-height: 2.0;
+    margin: 2%;
+    font-size: 20px;
+    }
+    .the_nav{
+        position: relative;
+        left: 4%;
+    }
+    #openDisclaimer{
+        position: relative;
+        right: 65%;
+    }
+    .events-list{
+        position: relative;
+        left: 40%;
+    }
+}
+/* media query for iphone5 */
+@media(max-width: 320px){
+    body,h1,h2,h3,h4,h5,h6 {font-family: Candara}
+body, html {
+    height: 100%;
+    width: 110%;
+    color:rgb(23, 82, 177);
+    line-height: 2.0;
+    margin: 2%;
+    font-size: 20px;
+}
+#events-button{
+    position: relative;
+    left: 40%;
+}
+}
+
+
+
+
+

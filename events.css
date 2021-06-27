@@ -1,0 +1,43 @@
+body {
+    font-family: Candara;
+    margin: 5%;
+}
+#back{
+    background-color: rgb(238, 234, 234);
+}
+
+h1 {
+    color: rgb(23, 82, 177);
+}
+
+ul {
+    color: rgb(23, 82, 177);
+}
+
+li {
+    color: black;
+}
+.bars{
+    position: relative;
+    left: 90%;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    color: red;
+}
+
+/* media query for iphone5 */
+@media(max-width: 320px){
+    #logo{
+        width: 200px;
+        height:100px;
+    }
+    .bars{
+        position: relative;
+        left: 80%;
+    }
+}
